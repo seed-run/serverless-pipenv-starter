@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pycodestyle = "*"
+autopep8 = "*"
+
+[packages]
+requests = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+test = "python -m unittest discover -s tests"
